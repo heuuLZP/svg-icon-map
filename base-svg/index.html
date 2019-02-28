@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
-  <style type="text/css">
+  <style>
     .svg-icon {
       width: 1em;
       height: 1em;
@@ -13,9 +13,40 @@
       fill: currentColor;
       overflow: hidden;
     }
-</style>
+    ul, li {
+      list-style: none;
+    }
+    li {
+      float: left;
+      width: 100px;
+      height: 100px;
+      padding: 10px 5px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    li span {
+      margin-top: 10px;
+      font-size: 12px;
+      color: #666;
+    }
+  </style>
 </head>
 <body>
-  <svg class="svg-icon" aria-hidden="true"><use xlink:href="#icon-love"></svg>
+  <ul>
+    <li>
+      <svg class="svg-icon" aria-hidden="true"><use xlink:href="#icon-love"></svg>
+      <span>love</span>
+    </li>
+    <li>
+      <svg class="svg-icon" aria-hidden="true"><use xlink:href="#icon-alipay"></svg>
+      <span>alipay</span>
+    </li>
+    <li>
+      <svg class="svg-icon" aria-hidden="true"><use xlink:href="#icon-wechat"></svg>
+      <span>wechat</span>
+    </li>
+  </ul>
 </body>
 </html>

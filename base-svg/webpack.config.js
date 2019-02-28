@@ -15,7 +15,7 @@ module.exports = {
   module: {
     rules: [{
       test: /\.svg$/,
-      include: [path.resolve(__dirname, 'src/svgs')],
+      include: [path.resolve(__dirname, 'src/assets/svgs')],
       use: [
         {
           loader: 'svg-sprite-loader',

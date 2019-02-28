@@ -6,7 +6,20 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <SvgIcon iconClass="love"></SvgIcon>
+        <ul>
+          <li>
+            <SvgIcon iconClass="love"></SvgIcon>
+            <span>love</span>
+          </li>
+          <li>
+            <SvgIcon iconClass="alipay"></SvgIcon>
+            <span>alipay</span>
+          </li>
+          <li>
+            <SvgIcon iconClass="wechat"></SvgIcon>
+            <span>wechat</span>
+          </li>
+        </ul>
       </div>
     );
   }
